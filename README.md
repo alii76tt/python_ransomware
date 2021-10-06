@@ -36,6 +36,8 @@ to be able to send an email<br/>
 >3)Activate "Less secure app access"<br/>
 example:
 [![](https://www.youtube.com/watch?v=FVi-m1qmJD0)]
+[![](https://www.youtube.com/v=FVi-m1qmJD0)]
+[![Send Email](https://img.youtube.com/vi/FVi-m1qmJD0/0.jpg)](https://www.youtube.com/watch?v=FVi-m1qmJD0)
 
 #### 2) Send Telegram (api) Message
 Telegram api    (https://core.telegram.org/bots/api)<br/>
