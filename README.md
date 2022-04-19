@@ -1,19 +1,30 @@
-# Python Ransomware
-Simple Ransomware using Python PyQt5 and Cryptography libraries.
-You can make the design you want using the design files.
+<h1 align='center'>Python Ransomware</h1>
+<p align='center'>Simple Ransomware using Python PyQt5 and Cryptography libraries.
+You can make the design you want using the design files.</p>
+
 
 ## Screenshot
+<p align='center'>
+    <img align="center" src="./encrypt_screenshot.png" style="max-width:30em">
+</p>
+<p align='center'>
+    <img align="center" src="./decrypt_screenshot.png" style="max-width:30em">
+</p>
 
-![](encrypt_screenshot.png)
-![](decrypt_screenshot.png)
 
-## Video
-[![](https://www.youtube.com/v=wGwfdWkOal4)]
-[![python instagram bot](https://img.youtube.com/vi/wGwfdWkOal4/0.jpg)](https://www.youtube.com/watch?v=wGwfdWkOal4)
+## YouTube Video
+[<img src="https://img.youtube.com/vi/wGwfdWkOal4/0.jpg" width="50%">](https://www.youtube.com/watch?v=wGwfdWkOal4 "Python File Management")
 
 ## Getting Started
 
 # Requirements
+You can install the Requirements by running the command:
+
+```
+pip install -r requirements.txt
+```
+
+```
 certifi==2021.5.30
 cffi==1.14.6
 charset-normalizer==2.0.6
@@ -25,6 +36,8 @@ PyQt5-Qt5==5.15.2
 PyQt5-sip==12.9.0
 requests==2.26.0
 urllib3==1.26.7
+```
+
 
 ### Operating Instructions
 
@@ -32,12 +45,10 @@ urllib3==1.26.7
 to be able to send an email<br/>
 
 >1)open your gmail account<br/>
->2)https://myaccount.google.com/ click<br/>
+>2)go https://myaccount.google.com/<br/>
 >3)Activate "Less secure app access"<br/>
-example:
-[![](https://www.youtube.com/watch?v=FVi-m1qmJD0)]
-[![](https://www.youtube.com/v=FVi-m1qmJD0)]
-[![Send Email](https://img.youtube.com/vi/FVi-m1qmJD0/0.jpg)](https://www.youtube.com/watch?v=FVi-m1qmJD0)
+[<img src="https://img.youtube.com/vi/FVi-m1qmJD0/0.jpg" width="50%">](https://www.youtube.com/watch?v=FVi-m1qmJD0 "Send Email]")
+
 
 #### 2) Send Telegram (api) Message
 Telegram api    (https://core.telegram.org/bots/api)<br/>
