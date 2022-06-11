@@ -90,5 +90,11 @@ $ python3 encrypt.py
 $ cd Decrypt
 $ python3 decrypt.py
 ```
+
+<hr>
+
+## Attention ⚠️
+These scripts contain stuff that can get you in trouble. This is for educational purposes only. Do not abuse.
+
 ## Buy Me a Coffee ☕
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/alii76tt)
